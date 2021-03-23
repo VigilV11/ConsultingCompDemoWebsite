@@ -92,6 +92,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100%;
   padding: 0 20px;
 }
@@ -215,4 +216,35 @@ img {
 
 .footer p {
   font-size: 0.8rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+  }
+
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    width: 100%;
+  }
+
+  .flex-grid .column img {
+    height: unset;
+  }
+
+  .team img {
+    width: 90%;
+  }
 }
