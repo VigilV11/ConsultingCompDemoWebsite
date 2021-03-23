@@ -7,9 +7,9 @@
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -74,6 +74,7 @@ img {
 }
 
 .navbar .logo {
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 500;
 }
 
@@ -141,5 +142,10 @@ img {
   color: #fff;
   padding: 1rem;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+/* Cases section */
+.cases img:hover {
+  opacity: 0.7;
 }
